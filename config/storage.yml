@@ -20,8 +20,8 @@ amazon:
   access_key_id: 73P3A7T6NJWD5TD2WXRU
   secret_access_key: YgV707d3weekeGoIZR4IAXq2e0QRk5V+Ya+YSHQeowE
   region: us-east-1
-  bucket: uploads
-  endpoint: "sfo2.digitaloceanspaces.com"
+  bucket: ibl-space 
+  endpoint: "https://sfo2.digitaloceanspaces.com"
   force_path_style: true
 
 # Remember not to checkin your GCS keyfile to a repository
