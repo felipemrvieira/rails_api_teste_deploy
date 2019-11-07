@@ -9,4 +9,6 @@ Rails.application.routes.draw do
       get :avatar, on: :member
     end
   end
+  root to: "api/articles#index"
+
 end
