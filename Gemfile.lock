@@ -45,6 +45,22 @@ GEM
     airbrussh (1.4.0)
       sshkit (>= 1.6.1, != 1.7.0)
     arel (9.0.0)
+    aws-eventstream (1.0.3)
+    aws-partitions (1.235.0)
+    aws-sdk-core (3.75.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.228.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-kms (1.25.0)
+      aws-sdk-core (~> 3, >= 3.71.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.53.0)
+      aws-sdk-core (~> 3, >= 3.71.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.1.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.3)
@@ -74,6 +90,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
+    jmespath (1.4.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -158,6 +175,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk-s3
   bootsnap (>= 1.1.0)
   byebug
   capistrano (~> 3.10)
