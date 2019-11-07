@@ -9,12 +9,19 @@ local:
 
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 amazon:
+  # service: S3
+  # access_key_id: 3C8GHZZD591GVABQ87AW
+  # secret_access_key: tC7LvrVvOVkrxVZddUCqejNL44UTBsGhjSMLbBZe
+  # region: us-east-1
+  # bucket: itec-cms
+  # endpoint: "http://172.16.34.21:9000"
+  # force_path_style: true
   service: S3
-  access_key_id: 3C8GHZZD591GVABQ87AW
-  secret_access_key: tC7LvrVvOVkrxVZddUCqejNL44UTBsGhjSMLbBZe
+  access_key_id: 73P3A7T6NJWD5TD2WXRU
+  secret_access_key: YgV707d3weekeGoIZR4IAXq2e0QRk5V+Ya+YSHQeowE
   region: us-east-1
-  bucket: itec-cms
-  endpoint: "http://172.16.34.21:9000"
+  bucket: uploads
+  endpoint: "sfo2.digitaloceanspaces.com"
   force_path_style: true
 
 # Remember not to checkin your GCS keyfile to a repository
