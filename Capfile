@@ -1,9 +1,11 @@
 require "capistrano/setup"
 require "capistrano/deploy"
 require "capistrano/scm/git"
-require 'capistrano/rails'
 require 'capistrano/rbenv'
 require 'capistrano/puma'
+# require 'capistrano/rails'
+require "capistrano/rails/migrations"
+
 
 set :rbenv_type, :user
 set :rbenv_ruby, '2.6.5'
